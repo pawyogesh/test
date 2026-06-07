@@ -1,0 +1,22 @@
+{
+  "name": "societyhub-design-system",
+  "version": "1.0.0",
+  "description": "SocietyHub - Housing Society Management SaaS Design System & Component Library",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "storybook": "turbo storybook"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.0",
+    "typescript": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
